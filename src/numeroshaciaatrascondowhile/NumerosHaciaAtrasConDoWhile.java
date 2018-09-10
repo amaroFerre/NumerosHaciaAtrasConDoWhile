@@ -16,19 +16,22 @@ public class NumerosHaciaAtrasConDoWhile {
    */
   public static void main(String[] args) {
     // TODO code application logic here
-    
+
     //Muestra los números del 320 al 160, contando de 20 en 20 
     //utilizando un bucle do-while
-    
     //Creo una variable de tipo entero y le doy el valor de 340,
-    
     //para que el primer numero que mi imprima por pantalla sea el 320
-    
     int numero = 340;
-    
-    
-    
-    
+
+    //Inicio el bucle Do While
+    do {
+
+      numero = numero - 20;
+
+      System.out.println(numero);
+
+    } while (numero > 160);
+
   }
-  
+
 }
